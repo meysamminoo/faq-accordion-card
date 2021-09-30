@@ -1,8 +1,8 @@
 let accordion = document.getElementsByClassName("accordion");
-let Index;
-
-for (Index = 0; Index < accordion.length; Index++) {
-  accordion[Index].addEventListener("click", function() {
+// let panels = document.getElementsByClassName("panel");
+let index;
+for (index = 0; index < accordion.length; index++) {
+  accordion[index].addEventListener("click", function() {
     this.classList.toggle("active");
     /* Toggle between hiding and showing the active panel */
     let panel = this.nextElementSibling;

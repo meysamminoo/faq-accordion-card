@@ -160,7 +160,7 @@ h1 {
 @media only screen and (max-width: 1040px) {
   .container {
     width: 330px;
-    height: 535px;
+    height: 575px;
     flex-direction: column;
   }
   .box-left {
